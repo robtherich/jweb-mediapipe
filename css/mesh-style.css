@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+}
+
+#container {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+}
+
+#overlay {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#videoel {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	font-size: 0;
+	overflow: hidden;
+}
