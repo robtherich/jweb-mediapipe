@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <!-- Load TensorFlow.js -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils@0.1/control_utils.css" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.1/camera_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils@0.1/control_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.2/drawing_utils.js" crossorigin="anonymous"></script>
+        <script src="./js/hands-landmarks-index.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/mesh-style.css">
+    </head>
+    <body>
+		<div id="container">
+            <img id="imageel" width="640" height="480" style="display: none;"></img>
+			<video id="videoel" width="640" height="480" style="display: none;"></video>
+			<canvas id="overlay" width="640" height="480"></canvas>
+		</div>
+        <script src="./js/hands-gesture-recognizer.js"></script>
+    </body>
+</html
