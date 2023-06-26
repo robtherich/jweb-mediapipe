@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 120.0, 319.0, 1214.0, 1057.0 ],
+		"rect" : [ 125.0, 180.0, 1214.0, 1125.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -915,7 +915,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 288.0, 761.0, 383.0, 276.666685700416565 ],
+					"patching_rect" : [ 288.0, 823.0, 383.0, 276.666685700416565 ],
 					"varname" : "mydictview[2]"
 				}
 
@@ -952,7 +952,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 839.046955329200841, 143.0, 24.0, 24.0 ]
+					"patching_rect" : [ 845.249998509883994, 143.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -963,7 +963,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 839.046955329200841, 173.0, 87.0, 22.0 ],
+					"patching_rect" : [ 845.249998509883994, 173.0, 84.0, 22.0 ],
 					"text" : "flip_image $1"
 				}
 
@@ -979,7 +979,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 683.999998509883881, 80.0, 130.0, 26.0 ],
+					"patching_rect" : [ 693.999998509883881, 80.0, 130.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1038,7 +1038,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.0, 829.0, 91.0, 22.0 ],
+					"patching_rect" : [ 105.0, 891.0, 91.0, 22.0 ],
 					"text" : "s mediadevices"
 				}
 
@@ -1049,7 +1049,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 800.0, 32.0, 22.0 ],
+					"patching_rect" : [ 172.0, 862.0, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -1060,7 +1060,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.5, 693.0, 60.0, 22.0 ],
+					"patching_rect" : [ 107.5, 755.0, 60.0, 22.0 ],
 					"text" : "print jweb"
 				}
 
@@ -1072,7 +1072,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 38.0, 693.0, 65.0, 22.0 ],
+					"patching_rect" : [ 38.0, 755.0, 65.0, 22.0 ],
 					"text" : "route error"
 				}
 
@@ -1084,7 +1084,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 38.0, 769.0, 153.0, 22.0 ],
+					"patching_rect" : [ 38.0, 831.0, 153.0, 22.0 ],
 					"text" : "route update mediadevices"
 				}
 
@@ -1097,7 +1097,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 38.0, 727.0, 39.0, 32.0 ]
+					"patching_rect" : [ 38.0, 789.0, 39.0, 32.0 ]
 				}
 
 			}
@@ -1533,7 +1533,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 288.0, 721.0, 138.0, 22.0 ],
+					"patching_rect" : [ 288.0, 755.0, 138.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"legacy" : 0,
@@ -1684,7 +1684,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 243.0, 635.0, 431.0 ],
+					"patching_rect" : [ 38.0, 243.0, 640.0, 480.0 ],
 					"rendermode" : 1,
 					"url" : "file://hands-gesture-recognizer.html"
 				}
@@ -2617,7 +2617,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-139", 0 ],
-					"midpoints" : [ 297.5, 744.0, 285.0, 744.0, 285.0, 753.0, 702.0, 753.0, 702.0, 570.0, 724.749998509883994, 570.0 ],
+					"midpoints" : [ 297.5, 814.0, 285.0, 814.0, 285.0, 813.0, 702.0, 813.0, 702.0, 570.0, 724.749998509883994, 570.0 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
@@ -2634,7 +2634,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
-					"midpoints" : [ 297.5, 744.0, 285.0, 744.0, 285.0, 747.0, 690.0, 747.0, 690.0, 228.0, 724.5, 228.0 ],
+					"midpoints" : [ 297.5, 800.0, 285.0, 800.0, 285.0, 800.0, 690.0, 800.0, 690.0, 228.0, 724.5, 228.0 ],
 					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
